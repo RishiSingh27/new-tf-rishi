@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout code') {
             steps {
-                git branch: 'master', url: 'https://azlab6cbe@dev.azure.com/azlab6cbe/rishi-new-project/_git/rishi-new-project'
+                git branch: 'master', url: 'https://github.com/RishiSingh27/new-tf-rishi'
             }
         }
 
