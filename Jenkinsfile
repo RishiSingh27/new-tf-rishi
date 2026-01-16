@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout code') {
             steps {
-                git branch: 'master', url: 'https://github.com/RishiSingh27/new-tf-rishi'
+                git branch: 'master', url: 'https://github.com/RishiSingh27/new-tf-rishi.git'
             }
         }
 
